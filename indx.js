@@ -1,6 +1,6 @@
 var req = new XMLHttpRequest(); 
 req.onload = reqListener; 
-req.open('get','https://portal.watchguard.com/CustomerCommunityHome',true); 
+req.open('get','https://www.watchguard.com/archive/ManageProducts.aspx',true); 
 req.withCredentials = true;
 req.send();
 
